@@ -3,5 +3,8 @@ tdistfit
 
 Some tools for fitting t-distributions to data.
 
+* `fitt_approx` : fits using the approximate method of Aeschliman et al. [^1]
+
+[^1]: C Aeschlimna, J Park and KA Cak, "A Novel Parameter Estimation Algorithm for the Multivariate t-Distribution and its Application to Computer Vision" [ECCV 2010](http://link.springer.com/chapter/10.1007%2F978-3-642-15552-9_43)
 
 vim: set ft=markdown:
