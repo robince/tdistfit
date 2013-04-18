@@ -23,4 +23,8 @@ These use a closed form approximation the ML estimate which is faster to compute
 
 [^2]: C Aeschlimna, J Park and KA Cak, "A Novel Parameter Estimation Algorithm for the Multivariate t-Distribution and its Application to Computer Vision" [ECCV 2010](http://link.springer.com/chapter/10.1007%2F978-3-642-15552-9_43)
 
+# License
+
+This project is licensed under the GNU General Public License. For the exact terms please see the [LICENSE file](https://github.com/robince/tdistfit/blob/master/LICENSE).
+
 vim: set ft=markdown:
