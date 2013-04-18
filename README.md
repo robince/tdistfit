@@ -5,6 +5,7 @@ Some tools for fitting t-distributions to data.
 
 # EM methods
 
+These methods find the maximum likelihood parameters using the [expectation-maximization algorithm](http://en.wikipedia.org/wiki/Expectation%E2%80%93maximization_algorithm). 
 Since I am fitting these distributions primarily to calculate entropy I am using covergence of entropy as a stopping criteria for the EM algorithm (rather than the full likelihood) but it is easy to change this if it is not suitable for your purposes.
 
 * `fitt` : fits a multivariate t-distribution using ECME algorithm [^1]
