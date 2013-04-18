@@ -8,6 +8,7 @@ Some tools for fitting t-distributions to data.
 Since I am fitting these distributions primarily to calculate entropy I am using covergence of entropy as a stopping criteria for the EM algorithm (rather than the full likelihood) but it is easy to change this if it is not suitable for your purposes.
 
 * `fitt` : fits a multivariate t-distribution using ECME algorithm [^1]
+* `fitt_fixnu` : fits a t-distribution with d.o.f. (nu) specified.
 
 # Approximate methods
 
