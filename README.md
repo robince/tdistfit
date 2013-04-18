@@ -9,7 +9,8 @@ Since I am fitting these distributions primarily to calculate entropy I am using
 
 * `fitt` : fits a multivariate t-distribution using ECME algorithm [^1]
 * `fitt_fixnu` : fits a t-distribution with d.o.f. (nu) specified.
-* `fitt_commonnu` : fit t-distributions to grouped data, with nu common across groups
+* `fitt_commonnu` : fit t-distributions to grouped data, with d.o.f. (nu) common across groups
+* `fitt_commonsnu` : fit t-distributions to grouped, with covariance (S) and d.o.f. (nu) common across groups
 
 # Approximate methods
 
