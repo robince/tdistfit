@@ -130,7 +130,7 @@ while ~converged && (t < maxiter)
     for yi=1:Ym
         H(yi) = sum(log(diag(chS))) + Hnu;
     end
-    converged = all(abs(H - H_old)) < tol;
+    converged = all(abs(H - H_old) < tol);
 end
 % theta = theta(:,1:t);
 
