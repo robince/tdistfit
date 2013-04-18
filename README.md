@@ -14,6 +14,8 @@ Since I am fitting these distributions primarily to calculate entropy I am using
 
 # Approximate methods
 
+These use a closed form approximation the ML estimate which is faster to compute. However, they didn't work well for me - with the data I was using I sometimes got negative values for terms which should be non-negative (although it seemed to work OK with generated t-distributed samples). 
+
 * `fitt_approx` : fits using the approximate method of Aeschliman et al. [^2]
 
 [^1]: C Liu and D B Rubin, (1995) "ML estimation of the t distribution using EM and its extensions, ECM and ECME", Statistica Sinica, [5, pp19-39](http://www3.stat.sinica.edu.tw/statistica/oldpdf/A5n12.pdf)
