@@ -37,8 +37,10 @@ H = 0;
 % fsolve options
 arg = {
 'TolFun', 1e-10
-% 'Display', 'off'
-%'Algorithm','levenberg-marquardt'
+'Jacobian', 'on'
+% 'DerivativeCheck', 'on'
+'Display', 'off'
+% 'Algorithm','levenberg-marquardt'
 };
 arg = arg';
 opt = optimset(arg{:});
@@ -78,7 +80,7 @@ while ~converged && (t < maxiter)
         
         % CM-2 Step
         optfun = @(v) fitt_optnu(v, delta, p);
-        [nu,~,flag] = fsolve(optfun, nu, opt);
+        [nu, ~,flag] = fsolve(optfun, nu, opt);
         if flag < 1
             error('fitt:fsolve did not converge')
         end
